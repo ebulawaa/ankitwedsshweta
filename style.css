@@ -1,0 +1,242 @@
+:root {
+  --theme-color: #FFCF40;
+  --theme-color2: #A63338;
+}
+
+body{
+ 
+  background-image: url("tile10.png");
+}
+
+.mdl-layout__drawer-button{
+
+color: var(--theme-color2)!important;
+}
+.mdl-layout__header{
+  background-color: var(--theme-color);
+  text-align:center;
+  font-size:36px;
+  padding:20px;
+   font-family: 'Italianno', cursive;
+  color: var(--theme-color2);
+  
+}
+.couplename{
+  background-color: rgba(255,207,64,0.9);
+  text-align: center;
+  font-size: 22px;
+  font-family: 'roboto';
+  color: var(--theme-color2);
+  line-height: normal;
+  margin-bottom: 6px;
+  padding: 10px;
+}
+
+.share{
+  background-color: rgba(255,255,255,1);
+  font-size: 18px;
+  font-family: 'roboto';
+  color: var(--theme-color);
+  line-height: normal;
+  margin-bottom: 6px;
+  padding: 5px;
+}
+h1{
+  font-family: 'Italianno', cursive;
+  color: var(--theme-color2);
+  margin: 0px;
+}
+/*******************************
+* Does not work properly if "in" is added after "collapse".
+* Get free snippets on bootpen.com
+*******************************/
+    .panel-group .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: #EEEEEE;
+    }
+
+    .panel-default > .panel-heading {
+        padding: 0;
+        border-radius: 0;
+        color: #212121;
+        background-color: #FAFAFA;
+        border-color: #EEEEEE;
+    }
+
+    .panel-title {
+        font-size: 14px;
+    }
+
+    .panel-title > a {
+        display: block;
+        padding: 15px;
+        text-decoration: none;
+    }
+
+    .more-less {
+        float: right;
+        color: #212121;
+    }
+
+    .panel-default > .panel-heading + .panel-collapse > .panel-body {
+        border-top-color: #EEEEEE;
+    }
+
+    .panel-title > a:before {
+  float: right !important;
+  font-family: FontAwesome;
+  content: "\f068";
+  padding-right: 5px;
+}
+.panel-title > a.collapsed:before {
+  float: right !important;
+  content: "\f067";
+}
+.panel-title > a:hover,
+.panel-title > a:active,
+.panel-title > a:focus {
+  text-decoration: none;
+}
+
+
+/* ----- v CAN BE DELETED v ----- */
+
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+
+  .container{
+   padding: 0px;
+  }
+
+ .carousel-inner>.item >img{
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: auto;
+  }
+}
+
+ .carousel-inner>.item >img{
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: auto;
+  }
+
+.panel-title{
+  font-size: 18px;
+  color: var(--theme-color2);
+}
+
+.panel-body{
+  text-align: center;
+  color: var(--theme-color2);
+  padding: 5px;
+  font-size: 22px;
+  line-height: normal !important;
+  font-family: "abel";
+
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid var(--theme-color);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    width: 100%;   
+}
+
+footer>p{
+  text-decoration: none;
+  margin: 0px;
+
+}
+#footerlink{
+
+  color: var(--theme-color2) !important;
+}
+#footerlink>a{
+
+  color: var(--theme-color2) !important;
+}
+.mdl-mini-footer{
+  background-color: var(--theme-color);
+}
+
+.panel-group{
+  margin-bottom: 6px;
+}
+
+.fa{
+  font-size: 38px;
+  color: var(--theme-color);
+  margin: 15px;
+  text-decoration: none;
+}
+.mdl-navigation__link{
+  font-size: 18px;
+  color: var(--theme-color)!important;
+}
+p{
+  line-height: normal;
+
+}
+.couplename>img{
+  max-width: 250px;
+}
+
+.mdl-layout-title>a>img{
+margin-top: 10px;
+border-radius: 5px;
+width: 60px;
+}
+
+   .mdl-layout-title{
+  text-align: center;
+}
+
+#ganesha{
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+#wedding1{
+  max-width: 70%;
+}
+#wedding2{
+  max-width: 100px;
+}
+
+.panel-title >a>img{
+  max-width: 18px;
+}
+
+#msgbutton{
+  background-color: var(--theme-color);
+  color: #fff;
+  font-family: "Roboto";
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+#inline{
+  width:100%;
+  height:auto;
+  display:flex;
+}
+.sharelinks,.wishesbutton{
+  text-align:center;
+  width:50%;
+  margin:0 auto;
+}
